@@ -81,7 +81,7 @@ public class UssdPhoneCallSmsPlugin implements FlutterPlugin, MethodCallHandler 
         String number = call.argument("phone_number");
         String smsBody = call.argument("sms_body");
         SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(number, null, smsBody, null, null);
+        smsManager.sendMultipartTextMessage(number, null, smsBody, null, null);
         result.success("Success ");
       }
       catch (Exception e){
