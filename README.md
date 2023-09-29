@@ -2,6 +2,7 @@
 
 - Support Android, IOS.
 - By using this plugin you can perform a phone call, USSD call or send text sms directly from your app.
+- This plugin was updated to send messages of more than 160 characters
 
 
 ### Getting started
