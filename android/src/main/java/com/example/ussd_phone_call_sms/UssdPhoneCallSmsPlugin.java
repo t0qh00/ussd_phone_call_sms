@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.telephony.SmsManager;
 import android.util.Log;
+import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
